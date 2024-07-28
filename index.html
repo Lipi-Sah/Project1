@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to Nova Nector</h1>
+        
+        <a href="#" id="getStartedBtn" class="cta-button">Get Started</a>
+    </header>
+    
+    <main class="main-content">
+        
+        <section id="welcomeMessage" class="welcome-message"></section>
+        
+        
+        <section class="why-choose-us">
+            <h2>Why Choose Us?</h2>
+            <p>Choose us for unparalleled IT and digital solutions that meet your unique goals and objectives. With a relentless commitment to excellence, we deliver cutting-edge technology paired with personalized service. Our team of experts ensures seamless integration, innovative problem-solving, and round-the-clock support. Wanting to elevate your business? Trust in our experience, dedication, and sheer passion for helping you bridge the gap between expectation and results.</p>
+            <div class="why-choose-us-content">
+                <div class="why-item">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Competitive Pricing</h3>
+                    <p>We offer cost-effective solutions without compromising on quality.</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-smile"></i>
+                    <h3>Customer Satisfaction</h3>
+                    <p>Your satisfaction is our top priority. We go the extra mile to ensure your needs are met.</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Skilled IT Experts</h3>
+                    <p>Our team comprises highly skilled professionals who excel in their respective fields.</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-star"></i>
+                    <h3>Best Service</h3>
+                    <p>We provide the best service in the industry, tailored to your specific requirements.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"This product has changed my life!"</p>
+                <p>- Happy Customer</p>
+            </div>
+            <div class="testimonial">
+                <p>"Excellent service and quality."</p>
+                <p>- Satisfied Client</p>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Nova Nector Service Private Limited. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+    
+    <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
